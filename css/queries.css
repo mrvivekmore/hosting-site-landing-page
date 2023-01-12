@@ -1,0 +1,299 @@
+/* ------------------------------ */
+/* -------- BELOW 1050px -------- */
+/* ------------------------------ */
+
+@media (max-width: 1050px) {
+  .hero {
+    gap: 34px;
+  }
+
+  .hero-textbox h1 {
+    font-size: 46px;
+  }
+
+  .hero-imgbox img {
+    max-width: 80%;
+  }
+}
+
+/* ------------------------------ */
+/* --------- BELOW 950px -------- */
+/* ------------------------------ */
+
+@media (max-width: 950px) {
+  .container {
+    max-width: 750px;
+  }
+
+  nav {
+    gap: 30px;
+  }
+
+  .logo {
+    width: 110px;
+  }
+
+  .nav-list {
+    gap: 30px;
+  }
+
+  .section-hero {
+    padding: 40px 0 70px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-imgbox {
+    order: 1;
+    margin-bottom: 30px;
+  }
+
+  .hero-imgbox img {
+    max-width: 65%;
+  }
+
+  .hero-textbox {
+    order: 2;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+
+  .hero-textbox h1 {
+    font-size: 42px;
+  }
+
+  .logos img {
+    max-width: 100px;
+  }
+
+  .section-services {
+    padding: 100px 0 60px;
+  }
+
+  .services-head {
+    margin-bottom: 50px;
+  }
+
+  .services-boxes {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .service-box-active {
+    margin-top: 0;
+  }
+
+  .service-box {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .support h2 {
+    font-size: 36px;
+  }
+
+  .support-grid {
+    grid-template-columns: 1fr;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .pricing-top {
+    gap: 30px;
+  }
+
+  .pricing-top img {
+    margin-top: 30px;
+  }
+
+  .pricing h2 {
+    font-size: 36px;
+  }
+
+  .pricing-list {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .reviews-head {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .reviews-main {
+    gap: 35px;
+  }
+
+  .footer h2 {
+    font-size: 34px;
+  }
+
+  .footer-cta-form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-links {
+    gap: 14px;
+  }
+
+  .footer-logo {
+    max-width: 100px;
+  }
+}
+
+/* ------------------------------ */
+/* --------- BELOW 750px -------- */
+/* ------------------------------ */
+
+@media (max-width: 750px) {
+  .nav-list {
+    display: none;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+    z-index: 11;
+    margin-right: 5%;
+  }
+
+  .hero-imgbox img {
+    max-width: 70%;
+  }
+
+  .hero-textbox {
+    max-width: 500px;
+  }
+
+  .hero-textbox h1 {
+    font-size: 38px;
+  }
+
+  .section-reviews {
+    padding: 80px 0;
+  }
+
+  .reviews-head {
+    margin-bottom: 40px;
+  }
+
+  .reviews-head h2 {
+    font-size: 34px;
+  }
+
+  .reviews-main {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  footer {
+    padding: 70px 0 30px;
+  }
+
+  .footer h2 {
+    font-size: 32px;
+  }
+
+  .footer-links {
+    gap: 8px;
+  }
+}
+
+/* ------------------------------ */
+/* --------- BELOW 550px -------- */
+/* ------------------------------ */
+
+@media (max-width: 550px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .section-hero {
+    padding: 30px 0 60px;
+  }
+
+  .hero-imgbox {
+    margin-bottom: 10px;
+  }
+
+  .hero-imgbox img {
+    max-width: 95%;
+  }
+
+  .hero-textbox h1 {
+    font-size: 36px;
+  }
+
+  .hero-btns {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .hero-btn {
+    padding: 10px 26px;
+    font-size: 15px;
+  }
+
+  .section-logos {
+    padding: 30px 0;
+  }
+
+  .logos {
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 30px;
+  }
+
+  .logos img {
+    max-width: 90px;
+  }
+
+  .last-logo-img {
+    display: none;
+  }
+
+  .section-services {
+    padding: 60px 0;
+  }
+
+  .services-head h2 {
+    font-size: 36px;
+  }
+
+  .support h2 {
+    font-size: 32px;
+  }
+
+  .support-grid {
+    max-width: 360px;
+  }
+
+  .pricing-top img {
+    display: none;
+  }
+
+  .pricing h2 {
+    font-size: 32px;
+  }
+
+  .footer h2 {
+    font-size: 32px;
+  }
+
+  .footer-cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-links {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    padding: 40px 0 30px;
+  }
+}
